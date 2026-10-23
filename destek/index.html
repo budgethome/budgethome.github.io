@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BudgetHome — Destek / Support</title>
+<link rel="icon" href="../icon.png">
+<style>
+  :root{--navy:#1E3A5F;--blue:#1A7FB5;--ink:#1c2733;--sub:#5b6b7a;--line:#e4e9ee;--bg:#f7f9fb;--card:#fff}
+  @media (prefers-color-scheme:dark){:root{--ink:#e8eef4;--sub:#9fb0c0;--line:#2a3542;--bg:#0f1720;--card:#17212c;--blue:#4fb0e6}}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+  .wrap{max-width:760px;margin:0 auto;padding:32px 16px 48px}
+  header{display:flex;align-items:center;gap:14px;margin-bottom:24px}
+  header img{width:56px;height:56px;border-radius:14px}
+  h1{font-size:1.6rem;margin:0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin:16px 0}
+  h2{font-size:1.15rem;margin:0 0 8px}
+  h3{font-size:1rem;margin:16px 0 4px}
+  p{margin:6px 0;color:var(--ink)}
+  .sub{color:var(--sub)}
+  a{color:var(--blue)}
+  .mail{display:inline-block;margin-top:8px;padding:10px 16px;border-radius:10px;background:var(--blue);color:#fff;text-decoration:none;font-weight:600}
+  .lang{display:flex;gap:8px;margin-bottom:8px}
+  .lang a{font-size:.9rem}
+  footer{margin-top:28px;font-size:.85rem;color:var(--sub);text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <img src="../icon.png" alt="BudgetHome">
+    <div><h1>BudgetHome</h1><div class="sub">Destek · Support</div></div>
+  </header>
+  <div class="lang"><a href="#tr">Türkçe</a> · <a href="#en">English</a></div>
+
+  <section id="tr" class="card">
+    <h2>Destek</h2>
+    <p>Bir sorun mu yaşıyorsun ya da bir önerin mi var? Bize e-posta ile yaz, en kısa sürede dönüş yapalım.</p>
+    <a class="mail" href="mailto:bbudgethome@gmail.com">bbudgethome@gmail.com</a>
+    <p class="sub">Yazarken uygulama sürümünü (Ayarlar → Uygulama hakkında) ve telefon modelini eklersen daha hızlı yardımcı olabiliriz.</p>
+
+    <h3>Sık sorulan sorular</h3>
+    <p><b>Verilerim nerede saklanıyor?</b><br>Verilerin güvenli bulut altyapısında saklanır. Yalnızca sen ve paylaştığın grup üyeleri erişebilir.</p>
+    <p><b>Hesabımı nasıl silerim?</b><br>Uygulamada Ayarlar bölümünden hesabını ve tüm verilerini kalıcı olarak silebilirsin.</p>
+    <p><b>Yanlışlıkla bir işlemi sildim.</b><br>Ayarlar → Son Silinenler bölümünden 30 gün içinde geri getirebilirsin.</p>
+    <p><b>Gizlilik politikası</b><br><a href="../gizlilik/">Gizlilik politikasını oku</a></p>
+  </section>
+
+  <section id="en" class="card">
+    <h2>Support</h2>
+    <p>Having a problem or have a suggestion? Send us an email and we'll get back to you as soon as possible.</p>
+    <a class="mail" href="mailto:bbudgethome@gmail.com">bbudgethome@gmail.com</a>
+    <p class="sub">Including your app version (Settings → About) and phone model helps us help you faster.</p>
+
+    <h3>Frequently asked questions</h3>
+    <p><b>Where is my data stored?</b><br>Your data is stored on secure cloud infrastructure. Only you and the group members you share with can access it.</p>
+    <p><b>How do I delete my account?</b><br>You can permanently delete your account and all your data from Settings in the app.</p>
+    <p><b>I deleted a transaction by mistake.</b><br>You can restore it within 30 days from Settings → Recently Deleted.</p>
+    <p><b>Privacy policy</b><br><a href="../gizlilik/">Read the privacy policy</a></p>
+  </section>
+
+  <footer>© BudgetHome · <a href="../">budgethome.github.io</a></footer>
+</div>
+</body>
+</html>
